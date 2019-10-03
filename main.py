@@ -30,7 +30,7 @@ class Location(object):
     def __init__(self, image_path):
         self.img_path = image_path
         print(image_path)
-        self.api_key = "b00f283e406540de66d8f1b612d580ff"
+        self.api_key = "xxxx"
 
         self.url_get_position = 'https://restapi.amap.com/v3/geocode/regeo?key={}&location={}'
 
